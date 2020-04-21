@@ -6,9 +6,9 @@ import SignalR from './SignalR';
 
 const Main = () => (
         <Switch>
-            <Route exact path='/textchat' component={TextChat}/>
-            <Route exact path='/groupchat' component={GroupChat}/>
-            <Route exact path='/' component={SignalR}/>
+            <Route exact path='/t' component={TextChat}/>
+            <Route exact path='/' component={GroupChat}/>
+            <Route exact path='/s' component={SignalR}/>
         </Switch>
 )
 
