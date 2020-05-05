@@ -4,7 +4,7 @@ import TwilioProgrammableChat from './TwilioProgrammableChat/Index';
 
 const Main = () => (
         <Switch>
-            <Route exact path='/' component={TwilioTextChat}/>
+            <Route exact path='/' component={TwilioProgrammableChat}/>
         </Switch>
 )
 
