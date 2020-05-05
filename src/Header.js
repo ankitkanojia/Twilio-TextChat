@@ -15,11 +15,11 @@ class Header extends Component {
                         <div className="collapse navbar-collapse" id="navbarNavDropdown">
                             <ul className="navbar-nav">
                                 <li className={"nav-item " + this.props.location.pathname === "/" ? "active" : ""}>
-                                    <Link to="/" className="nav-link">OneToOne Text Chat</Link>
+                                    <Link to="/" className="nav-link">Twilio Programmable Chat</Link>
                                 </li>
-                                <li className={"nav-item " + this.props.location.pathname === "/GroupChat" ? "active" : ""}>
+                                {/* <li className={"nav-item " + this.props.location.pathname === "/GroupChat" ? "active" : ""}>
                                     <Link to="/GroupChat" className="nav-link" href="#">Group Chat</Link>
-                                </li>
+                                </li> */}
                             </ul>
                         </div>
                     </nav>

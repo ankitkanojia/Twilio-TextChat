@@ -1,14 +1,10 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-import TextChat from './TextChat';
-import GroupChat from './GroupChat';
-import SignalR from './SignalR';
+import TwilioProgrammableChat from './TwilioProgrammableChat/Index';
 
 const Main = () => (
         <Switch>
-            <Route exact path='/t' component={TextChat}/>
-            <Route exact path='/' component={GroupChat}/>
-            <Route exact path='/s' component={SignalR}/>
+            <Route exact path='/' component={TwilioTextChat}/>
         </Switch>
 )
 
